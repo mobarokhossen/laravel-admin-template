@@ -17,11 +17,11 @@ class RolesTableSeeder extends Seeder
         DB::table('roles')->truncate();
 
         $roles = [
-            'developer' => 'Developer',
             'admin' => 'Admin',
-            'student' => 'Student',
-            'institution' => 'Institution',
-            'management' => 'Management',
+            'visitor' => 'Visitor',
+            'project_owner' => 'Project owner',
+            'member' => 'Member',
+            'supporting_stuff' => 'Supporting stuff',
         ];
 
         foreach ($roles as $role => $roleDetails) {

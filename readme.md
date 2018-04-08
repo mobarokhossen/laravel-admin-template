@@ -6,7 +6,7 @@ There all are defined. Just copy/clone the project and develop your own site eas
 ## Technology
 
 1.	Programming Language: PHP > 5.6
-2.	Web Framework: Laravel > 5
+2.	Web Framework: Laravel > 5.5
 3.	Database: MySQL
 4.	Front End Design: HTML5, CSS3, Bootstrap
 5.	Client Side language: Javascript, JQuery

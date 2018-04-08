@@ -31,7 +31,7 @@ Route::post('login', ['as' => 'login', 'uses' => 'Auth\LoginController@login']);
 Route::group([
     'prefix' => 'admin',
     'namespace' => 'Admin',
-    'middleware' => ['auth', 'role:developer|admin'],
+    'middleware' => ['auth', 'role:admin'],
     'as' => 'admin.'
 ], function () {
     Route::get('dashboard', ['as' => 'dashboard', 'uses' => 'DashboardController@index']);
